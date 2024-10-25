@@ -1,0 +1,36 @@
+/* styles.css */
+#cart-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .cart-item-image img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+    padding-left: 20px;
+  }
+  
+  #checkout-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #checkout-button:hover {
+    background-color: #218838;
+  }
+  

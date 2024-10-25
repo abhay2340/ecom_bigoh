@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="container">
+            <div id="form-modal-container">
+                <div id="form-container">
+                    <div id="form-inner-container">
+                        <div id="modal-header">
+                            <h1>Post This Item</h1>
+                            <button id="modal-close-button">X</button>
+                        </div>
+                        <form id="form" >
+                            <div>
+                                <label for="product-title">Product Title:</label><br>
+                                <input type="text" id="product-title" placeholder="Product Title"><br>
+                            </div>
+                            <div>
+
+                                <label for="product-price">Product Price:</label><br>
+                                <input type="number" id="product-price" placeholder="Product Price"><br>
+                            </div>
+                            <div>
+
+                                <label for="product-description">Product Description:</label><br>
+                                <input type="text" id="product-description" placeholder="Product Description"><br>
+                            </div>
+                            <div>
+
+                                <label for="product-image">Product Image:</label><br>
+                                <input type="url" id="product-image" placeholder="Image URL"><br>
+                            </div>
+                            <div>
+
+                                <label for="product-category">Product Category:</label><br>
+                                <input type="text" id="product-category" placeholder="Product Category"><br>
+                            </div>
+                            <button id="post-data">Post Data</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="navbar-container">
+            <nav id="navbar">
+                <button id="post-button">Post</button>
+                <!-- <a href="index2.html">Click</a> -->
+                <div>
+                    <!-- <select id="category-select">
+                        <option value="">Select a category</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="jewelery">Jewelery</option>
+                        <option value="men's clothing">Men's Clothing</option>
+                        <option value="women's clothing">Women's Clothing</option>
+                    </select> -->
+                    <!-- <input placeholder="Search By ID" type="text" /> -->
+                    <!-- <button id="get">Search</button> -->
+                      <input type="text" id="search-input" placeholder="Search for products...">
+                </div>
+            </nav>
+        </section>
+
+        <section id="heroSection">
+
+
+        </section>
+    </div>
+
+</body>
+<script type="module" src="../js/script.js"></script>
+<!-- <script type="module" src="API.js"></script> -->
+
+</html>
